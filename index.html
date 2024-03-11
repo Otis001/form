@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+            <div class="image">
+                <img src="imagesfolder/1.jpg" alt="">
+            </div>
+            
+            <div class="container-content">
+                <h1 class="form-title">STUDENT REGISTRATION</h1>
+            <form action="action_page.php" autocomplete="on">
+                <div class="main-user-info">
+                    <div class="user-input-box">
+                        <label for="fname">Full Name:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="pnumber">Phone Number:</label><br>
+                        <input type="text" id="pnumber" name="pnumber" placeholder="Enter Phone number"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="email">Student Email:</label><br>
+                        <input type="text" id="email" name="email" placeholder="Enter Student Email"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password" placeholder="Enter Password"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="dateofbirth">Date of Birth:</label><br>
+                        <input type="date" id="dateofbirth" name="dateofbirth" placeholder="dd/mm/yy"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="IDnumber">Student ID Number:</label><br>
+                        <input type="text" id="IDnumber" name="IDnumber" placeholder="  Enter Student ID Number"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="year">Year of Study:</label>
+                        <input type="text" id="year" name="year" placeholder="  Enter year of study"required>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="year">Course:</label>
+                        <input type="text" id="course" name="course" placeholder="  Enter your course"required>
+
+                    </div>
+                    <div class="gender-details">
+                       <span class="gender-title">Gender</span> <br>
+                       <div class="gender-input">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Prefer not to say</label>
+                       </div>
+                    </div>
+                </div>
+                <div class="alert">
+                    <p>By clicking register,you agree to our <a href="#">Terms,</a><a href="#">Privacy Policy</a> and <a href="#">Cookies</a> .You may receive email notifications from us and can opt out at any time. </p>
+                </div>
+                <div class="form-submit-details">
+                    <div class="form-submit-btn">
+                        <button type="submit" name="register">Register</button>
+                    </div>
+                    <div class="form-submit-btn">
+                        <button type="submit" name="cancel">Cancel</button>
+                    </div>
+            </form>
+            </div>
+            
+        
+        
+    </div>
+</body>
+</html>
